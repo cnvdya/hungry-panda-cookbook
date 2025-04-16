@@ -1,0 +1,150 @@
+/* -------------------/
+ Import Google Fonts
+/--------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* -------------------/
+    General Styles
+/--------------------*/
+
+body {
+    max-width: 375px;
+    border: 1px dotted black;
+    font-family: "Roboto", sans-serif;
+    color: #262522;
+    margin: 0 auto;
+    background-color: #F0EBE1;
+}
+
+/* flex */
+header,
+.header-left,
+.tag-container,
+.time-container,
+.time-container,
+.prep-container {
+    display: flex;
+}
+
+/* border */
+header,
+main {
+    border: 1px solid #2625223d;
+}
+
+/* cursor */
+.header-left,
+.hamburger-icon {
+    cursor: pointer;
+}
+
+/* align self: center */
+.logo-text,
+nav {
+    align-self: center;
+}
+
+/* monstserrat font */
+h1, 
+.tag-container {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* -------------------/
+    Header Styles
+/--------------------*/
+
+header {
+    justify-content: space-between;
+    margin: 1rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    font-size: .875rem;
+    font-weight: bold;
+    line-height: 103%;
+}
+
+.logo-text {
+    margin-left: 8px;
+    line-height: 120%;
+}
+
+.logo-text span {
+    display: block;
+}
+
+.hamburger-icon {
+    background-color: #26252229;
+    border-radius: 1rem;
+    padding: .3rem;
+}
+
+
+/* -------------------/
+    Main Styles
+/--------------------*/
+
+main {
+    padding: 4rem 1rem 2.5rem 1rem;
+    text-align: center;
+    border-radius: 1.5rem;
+    margin: 1rem;
+}
+
+.recipe-span {
+    display: inline-block;
+    background-color: #EE6352;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    margin-bottom: .75rem;
+    color: #FFFBF2;
+    font-weight: 500;
+    line-height: 1;
+}
+
+h1 {
+    font-size: 2.3125rem;
+    font-weight: 800;
+    
+    letter-spacing: -1%;
+    margin-bottom: .75rem;
+}
+
+main p {
+    color: #26252299;
+    line-height: 140%;
+    letter-spacing: 0.1px;
+}
+
+.tag-container {
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin: 2.5rem 0;
+    letter-spacing: .5px;
+}
+
+.time-container
+{
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.time-display {
+    margin: 0 1.5rem 0 .5rem;
+}
+
+.weight-icon,
+.bell-icon {
+    margin: 0 .5rem 0 1.5rem;
+}
+
+.img-main {
+    width: 100%;
+    border-radius: 1rem;
+}
+
