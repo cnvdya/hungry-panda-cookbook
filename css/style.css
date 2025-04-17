@@ -89,9 +89,12 @@ header {
 
 main {
     padding: 4rem 1rem 2.5rem 1rem;
-    text-align: center;
     border-radius: 1.5rem;
     margin: 1rem;
+}
+
+.hero {
+    text-align: center;
 }
 
 .recipe-span {
@@ -108,7 +111,6 @@ main {
 h1 {
     font-size: 2.3125rem;
     font-weight: 800;
-    
     letter-spacing: -.01rem;
     margin-bottom: .75rem;
 }
@@ -154,7 +156,6 @@ main p {
 /--------------------*/
 
 .do-dont {
-    text-align: left;
     margin: 4rem 0 0 0;
 }
 
@@ -203,6 +204,10 @@ main p {
       List Styles
 /--------------------*/
 
+.list-section {
+    margin-bottom: 4rem;
+}
+
 .list-container {
     padding: 1.5rem 1rem;
     background-color: #FFFBF2;
@@ -250,4 +255,40 @@ main p {
 .nutrition-title {
     font-weight: 500;
     line-height: 130%;
+}
+
+
+/* -------------------/
+  Instructions Styles
+/--------------------*/
+
+.instructions h2 {
+    font-size: 1.625rem;
+    font-weight: 700;
+    letter-spacing: .01rem;
+    color: #333;
+}
+
+.instructions h2,
+.instructions h3 {
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 1rem;
+}
+
+.instructions p {
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: .01rem;
+    line-height: 140%;
+    margin-bottom: 2.5rem;
+}
+
+.instructions h3 {
+    color: #EE6352;
+    font-weight: 600;
+    letter-spacing: .02rem;
+}
+
+.instructions ul {
+    margin-bottom: 2.5rem;
 }
