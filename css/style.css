@@ -1,0 +1,88 @@
+/* -------------------/
+ Import Google Fonts
+/--------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* -------------------/
+    General Styles
+/--------------------*/
+
+body {
+    max-width: 375px;
+    border: 1px dotted black;
+    font-family: "Roboto", sans-serif;
+    color: #262522;
+    margin: 0 auto;
+    background-color: #F0EBE1;
+}
+
+/* flex */
+header,
+.header-left,
+.tag-container,
+.time-container,
+.time-container,
+.prep-container {
+    display: flex;
+}
+
+/* border */
+header,
+main {
+    border: 1px solid #2625223d;
+}
+
+/* border radius */
+img {
+    border-radius: 1rem;
+}
+
+/* cursor */
+.header-left,
+.hamburger-icon {
+    cursor: pointer;
+}
+
+/* align self: center */
+.logo-text,
+nav {
+    align-self: center;
+}
+
+/* monstserrat font */
+h1, 
+.tag-container {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* -------------------/
+    Header Styles
+/--------------------*/
+
+header {
+    justify-content: space-between;
+    margin: 1rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    font-size: .875rem;
+    font-weight: bold;
+    line-height: 103%;
+}
+
+.logo-text {
+    margin-left: 8px;
+    line-height: 120%;
+}
+
+.logo-text span {
+    display: block;
+}
+
+.hamburger-icon {
+    background-color: #26252229;
+    border-radius: 1rem;
+    padding: .3rem;
+}
