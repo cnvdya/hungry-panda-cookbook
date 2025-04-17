@@ -211,7 +211,8 @@ main p {
 }
 
 .list-container,
-.list-container h3 {
+.list-container h3,
+.nutrition-paragraph  {
     margin-bottom: 1rem;
 }
 
@@ -226,8 +227,27 @@ main p {
     color: #EE6352;
 }
 
-.list-container li {
+.list-container li,
+.list-container p,
+.list-container span {
     letter-spacing: .01rem;
     line-height: 140%;
+}
+
+.list-container li {
     font-size: .9375rem;
+}
+
+.list-container p {
+    color: #262522;
+}
+
+.nutrition-paragraph,
+.list-container span {
+    font-weight: 300;
+}
+
+.nutrition-title {
+    font-weight: 500;
+    line-height: 130%;
 }
