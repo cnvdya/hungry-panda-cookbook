@@ -31,7 +31,11 @@ body {
 	line-height: 1;
 }
 ol, ul {
+<<<<<<< HEAD
 	list-style: none;
+=======
+	/* list-style: none; */
+>>>>>>> recipe-page
 }
 blockquote, q {
 	quotes: none;
@@ -49,5 +53,9 @@ a {
 	text-decoration: none;
 }
 li {
+<<<<<<< HEAD
 	list-style: none;
+=======
+	/* list-style: none; */
+>>>>>>> recipe-page
 }
