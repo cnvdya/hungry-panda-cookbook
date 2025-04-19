@@ -10,6 +10,7 @@
 /--------------------*/
 
 body {
+    /* temporary width */
     max-width: 375px;
     border: 1px dotted black;
     font-family: "Roboto", sans-serif;
