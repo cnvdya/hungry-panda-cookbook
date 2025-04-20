@@ -1,0 +1,205 @@
+/* -------------------/
+    Main Styles
+/--------------------*/
+
+main {
+    padding: 4rem 1rem 2.5rem 1rem;
+    border-radius: 1.5rem;
+    margin: 1rem;
+}
+
+.hero {
+    text-align: center;
+}
+
+.recipe-span {
+    display: inline-block;
+    background-color: #EE6352;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    margin-bottom: .75rem;
+    color: #FFFBF2;
+    font-weight: 500;
+    line-height: 1;
+}
+
+h1 {
+    font-size: 2.3125rem;
+    font-weight: 800;
+    letter-spacing: -.01rem;
+    margin-bottom: .75rem;
+}
+
+main p {
+    color: #26252299;
+    line-height: 140%;
+    letter-spacing: 0.1px;
+}
+
+.tag-container {
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin: 2.5rem 0;
+    letter-spacing: .5px;
+}
+
+.time-container
+{
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.time-display {
+    margin: 0 1.5rem 0 .5rem;
+}
+
+.weight-icon,
+.bell-icon {
+    margin: 0 .5rem 0 1.5rem;
+}
+
+
+
+/* -------------------/
+  Do and Don't Styles
+/--------------------*/
+
+.do-dont {
+    margin: 4rem 0 0 0;
+}
+
+.do-dont h2,
+.do-dont span,
+.do-dont p {
+    margin-bottom: 1rem;
+}
+
+.do-dont h2,
+.do-dont h3 {
+    font-weight: 700;
+}
+
+.do-dont h2,
+.do-dont span {
+    font-family: "Montserrat", sans-serif;
+}
+
+.do-dont h3,
+.do-dont p {
+    line-height: 140%;
+    letter-spacing: .01rem;
+    font-size: .875rem;
+}
+
+.do-dont h2 {
+    font-size: 1.3125rem;
+    letter-spacing: -0.01rem;
+    line-height: 120%;
+}
+
+.do-dont span {
+    display: inline-block;
+    color: #EE6352;
+    font-weight: 600;
+    letter-spacing: .02rem;
+}
+
+.do-dont p {
+    font-weight: 300;
+}
+
+
+/* -------------------/
+      List Styles
+/--------------------*/
+
+.list-section {
+    margin-bottom: 4rem;
+}
+
+.list-container {
+    padding: 1.5rem 1rem;
+    background-color: #FFFBF2;
+    text-align: left;
+    border-radius: 1.5rem;
+}
+
+.list-container,
+.list-container h3,
+.nutrition-paragraph  {
+    margin-bottom: 1rem;
+}
+
+.list-container ul {
+    padding-left: 1.5rem;
+}
+
+.list-container h3 {
+    font-weight: 600;
+    letter-spacing: .02rem;
+    font-family: "Montserrat", sans-serif;
+    color: #EE6352;
+}
+
+.list-container li,
+.list-container p,
+.list-container span {
+    letter-spacing: .01rem;
+    line-height: 140%;
+}
+
+.list-container li {
+    font-size: .9375rem;
+}
+
+.list-container p {
+    color: #262522;
+}
+
+.nutrition-paragraph,
+.list-container span {
+    font-weight: 300;
+}
+
+.nutrition-title {
+    font-weight: 500;
+    line-height: 130%;
+}
+
+
+/* -------------------/
+  Instructions Styles
+/--------------------*/
+
+.instructions h2 {
+    font-size: 1.625rem;
+    font-weight: 700;
+    letter-spacing: .01rem;
+    color: #333;
+}
+
+.instructions h2,
+.instructions h3 {
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 1rem;
+}
+
+.instructions p {
+    font-size: .875rem;
+    font-weight: 300;
+    letter-spacing: .01rem;
+    line-height: 140%;
+    margin-bottom: 2.5rem;
+}
+
+.instructions h3 {
+    color: #EE6352;
+    font-weight: 600;
+    letter-spacing: .02rem;
+}
+
+.instructions ul {
+    margin-bottom: 2.5rem;
+}
