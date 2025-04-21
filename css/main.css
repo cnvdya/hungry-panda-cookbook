@@ -33,7 +33,9 @@ img {
 
 /* cursor */
 .header-left,
-.hamburger-icon {
+.hamburger-icon,
+.sign-up-btn,
+.see-more-btn  {
     cursor: pointer;
 }
 
@@ -100,7 +102,7 @@ nav {
   background-repeat: no-repeat;
   height: 40rem;
   color: #F0EBE1;
-  padding: 16px;
+  padding: 1rem;
 }
 
 .hero h1 {
@@ -117,6 +119,83 @@ nav {
   margin-bottom: 2.5rem;
 }
 
+.sign-up-btn {
+  font-size: .875;
+  font-weight: 500;
+  font-family: inherit;
+  padding: .75rem 1.5rem;
+  border: none;
+  border-radius: 1.5rem;
+  width: 10.375rem;
+  height: 2.375rem;
+  background-color: #F29C33;
+  text-transform: uppercase;
+}
+
+
+/* -------------------/
+    Explore styles
+/--------------------*/
+
+.explore {
+  margin: 1rem;
+  padding: 2.5rem 1.5rem;
+  background-color: #C4E5FC;
+  border-radius: 1.5rem;
+}
+
+.span-explore {
+  display: grid;
+  place-items: center;
+  font-size: .875rem;
+  font-weight: 500;
+  border-radius: .75rem;
+  background-color: #EE6352;
+  padding: .25rem .5rem;
+  width: 4.75rem;
+  height: 1.5rem;
+  color: #F0EBE1;
+  margin-bottom: .5rem;
+}
+
+.explore h2 {
+  font-size: 1.625rem;
+  font-weight: 700;
+  letter-spacing: .01rem;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: .75rem;
+}
+
+.explore p {
+  font-size: .875rem;
+  letter-spacing: .01rem;
+  line-height: 1.4;
+  color: #262522CC;
+  margin-bottom: 2.5rem;
+}
+
+.explore button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: .875rem;
+  border: none;
+  background-color: transparent;
+  border: 1px solid #262522;
+  margin-bottom: 4rem;
+  padding: .75rem 1.5rem;
+  border-radius: 1.5rem;
+}
+
+.meal-type-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: .02rem;
+  border-bottom: 1px solid #26252229;
+  padding: 2rem 0 1rem 0;
+}
 
 
 /* a {
