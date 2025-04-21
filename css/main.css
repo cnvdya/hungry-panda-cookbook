@@ -1,75 +1,185 @@
-/* css common to all the pages */
+/* Import Google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* -------------------/
+    CSS common to 
+    all the pages
+/--------------------*/
 
 body {
-font-family: 'Segoe UI', sans-serif;
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-color: #333
+   /* temporary */
+  max-width: 375px; 
+  border: 1px dotted black;
+  margin: 0 auto;
+  /*            */
+  
+  font-family: "Roboto", sans-serif;
+  color: #262522;
+  background-color: #F0EBE1;
 }
 
-a {
-    text-decoration: none;
+/* border */
+header,
+main {
+    border: 1px solid #2625223d;
+}
+
+/* border radius */
+img {
+    border-radius: 1rem;
+}
+
+/* cursor */
+.header-left,
+.hamburger-icon {
+    cursor: pointer;
+}
+
+/* flex */
+header,
+.header-left {
+  display: flex;
+}
+
+/* margin */
+header,
+.hero {
+  margin: 1rem;
+}
+
+
+/* -------------------/
+    Header Styles
+/--------------------*/
+
+header {
+  justify-content: space-between;
+  border-radius: 2rem;
+  padding: 1rem;
+  font-size: .875rem;
+  font-weight: bold;
+  line-height: 1.03;
+}
+
+.logo-text {
+  margin-left: .5rem;
+  line-height: 120%;
+}
+
+.logo-text span {
+  display: block;
+}
+
+.hamburger-icon {
+  background-color: #26252229;
+  border-radius: 1rem;
+  padding: .3rem;
+}
+
+.logo-text,
+nav {
+    align-self: center;
+}
+
+
+/* -------------------/
+    Hero styles
+/--------------------*/
+
+.hero {
+  display: grid;
+  place-items: center;
+  border-radius: 1.5rem;
+  text-align: center;
+  background-color: #262522;
+  /* background-image: url('../img/hero-img.jpg'); */
+  background-size: cover;               /* Fills the entire section */
+  background-position: center center;   /* Centers the image */
+  background-repeat: no-repeat;
+  height: 40rem;
+  color: #F0EBE1;
+  padding: 16px;
+}
+
+.hero h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.8rem;
+  font-weight: 800;
+  letter-spacing: -.01rem;
+  margin-bottom: .75rem;
+}
+
+.hero p {
+  line-height: 1.4;
+  letter-spacing: .01rem;
+  margin-bottom: 2.5rem;
+}
+
+
+
+/* a {
     color: #e74c3c;
   }
 
   h1 {
     font-size: 2.5rem;
     line-height: 1.2;
-  }
+  } */
 
-  .navbar {
+  /* .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
     background: #fff;
-  }
+  } */
 
-  .logo span {
+  /* .logo span {
     color: #e74c3c;
   }
 
   .navlinks a {
     margin: 0 10px;
     font-weight: 500;
-  }
+  } */
 
-  .hero {
+  /* .hero {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     padding: 60px 40px;
     background-image: url('../img/hero-image.png');
     background-size: cover;               /* Fills the entire section */
-    background-position: center center;   /* Centers the image */
-    background-repeat: no-repeat;
+    /* background-position: center center;   /* Centers the image */
+    /* background-repeat: no-repeat;
     min-height: 400px;
     color: white;                         /* Assuming image has darkish tones */
-    flex-wrap: wrap;
-    position: relative;
-  }
+    /* flex-wrap: wrap;
+    position: relative; */
+  
 
  
-  .hero-text {
+  /* .hero-text {
     flex: 1;
     max-width: 600px;
     text-align: left;
     z-index: 1;
     background: rgba(0, 0, 0, 0.4); 
     padding: 20px;
-  }
+  } */ 
 
-  .logo {
+  /* .logo {
     display: flex;
     align-items: center;
     gap: 10px;
     font-weight: bold;
     font-size: 1.2rem;
     color: #333;
-  }
+  } */
   
-  .logo img {
+  /* .logo img {
     width: 40px;
     height: 35px;
-  }
+  } */
