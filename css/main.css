@@ -67,13 +67,19 @@ header {
   line-height: 1.03;
 }
 
+.header-left {
+  width: 70%;
+}
+
 .logo-text {
+  display: flex;
+  flex-direction: column;
   margin-left: .5rem;
   line-height: 120%;
 }
 
-.logo-text span {
-  display: block;
+.logo {
+  width: 2.5rem;
 }
 
 .hamburger-icon {
@@ -130,7 +136,7 @@ nav {
   border-radius: 1.5rem;
   width: 10.375rem;
   height: 2.375rem;
-  background-color: #F29C33;
+  background-color: #FE973E;
   text-transform: uppercase;
 }
 
@@ -212,6 +218,10 @@ nav {
 .recipe-container {
   display: flex;
   flex-direction: column;
+}
+
+.recipe-container.top {
+  margin-bottom: 1rem;
 }
 
 .featured-recipes h2 {
