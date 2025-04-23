@@ -56,7 +56,7 @@ header,
 
 /* Montserrat font */
 .hero h1,
-h2,
+.title-h2,
 .meal-type-container,
 .featured-recipes h2,
 .recipe-title   {
@@ -64,7 +64,7 @@ h2,
 }
 
 /* headings 2 */
-h2 {
+.title-h2 {
   font-size: 1.625rem;
   font-weight: 700;
   letter-spacing: .01rem;
@@ -94,6 +94,19 @@ p {
   height: 1.5rem;
   color: #F0EBE1;
   margin-bottom: .5rem;
+}
+
+/* general buttons */
+.general-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: .875rem;
+  border: none;
+  background-color: transparent;
+  border: 1px solid #262522;
+  margin-bottom: 4rem;
+  padding: .75rem 1.5rem;
+  border-radius: 1.5rem;
 }
 
 
@@ -193,7 +206,7 @@ nav {
   background-color: #C4E5FC;
 }
 
-.explore button {
+.general-btn {
   font-family: inherit;
   font-weight: 500;
   font-size: .875rem;
@@ -234,9 +247,6 @@ nav {
 }
 
 .featured-recipes h2 {
-  font-size: 1.625rem;
-  font-weight: 700;
-  letter-spacing: .01rem;
   margin-bottom: 1.5rem;
 }
 
@@ -303,11 +313,23 @@ nav {
 .recipes {
   padding: 1rem;
   margin-top: 64px;
+}
+
+.recipe-heading {
   text-align: center;
 }
 
 .recipes span {
   display: inline-block;
+}
+
+.recipe-buttons {
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.recipes button {
+  margin-bottom: 1rem;
 }
 
 
