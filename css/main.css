@@ -162,7 +162,7 @@ nav {
   background-color: #262522;
   /* background-image: url('../img/hero-img.jpg'); */
   background-size: cover;               /* Fills the entire section */
-  background-position: center center;   /* Centers the image */
+  background-position: center;   /* Centers the image */
   background-repeat: no-repeat;
   height: 40rem;
   color: #F0EBE1;
